@@ -14,7 +14,7 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 unsigned long pixelPrevious = 0;     
 unsigned long patternPrevious = 0;     
 int           patternCurrent = 0;      
-int           patternInterval = 2000;  
+int           patternInterval = 1000;  
 int           pixelInterval = 10;      
 int           pixelQueue = 0;           
 int           pixelCycle = 0;           
